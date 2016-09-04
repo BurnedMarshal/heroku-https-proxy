@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node ./app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha ./test.js"
   },
   "repository": {
     "type": "git",
@@ -27,8 +27,13 @@
     "redbird": "^0.6.2"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
+    "dirty-chai": "^1.2.2",
     "eslint": "^3.4.0",
-    "eslint-plugin-node": "^2.0.0"
+    "eslint-plugin-node": "^2.0.0",
+    "mocha": "^3.0.2"
   },
-  "engines": {"node": "^4.0.0"}
+  "engines": {
+    "node": "^4.0.0"
+  }
 }
