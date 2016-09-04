@@ -1,0 +1,34 @@
+{
+  "name": "heroku-https-proxy",
+  "version": "0.0.1",
+  "description": "Node.js HTTPS proxy for Heroku service",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BurnedMarshal/heroku-https-proxy.git"
+  },
+  "keywords": [
+    "heroku",
+    "https",
+    "proxy",
+    "node"
+  ],
+  "author": "Daniele Manni",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/BurnedMarshal/heroku-https-proxy/issues"
+  },
+  "homepage": "https://github.com/BurnedMarshal/heroku-https-proxy#readme",
+  "dependencies": {
+    "redbird": "^0.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-plugin-node": "^2.0.0"
+  },
+  "engines": {"node": "^4.0.0"}
+}
